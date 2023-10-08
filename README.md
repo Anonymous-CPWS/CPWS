@@ -2,7 +2,14 @@
 
 CPWS: Generate High-Quality Data from Confident Programmatic Weak Supervision
 
+**Framework**
 <img src="framework.png"/>
+
+**Dependencies**
+
+**Data**
+
+Our project is built based on Python, Pytorch and Wrench. We sincerely thank the efforts from all the researchers!
 
 **Reference**
 
