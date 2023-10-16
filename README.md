@@ -1,6 +1,6 @@
 # CPWS
 
-CPWS: Generate High-Quality Data from Confident Programmatic Weak Supervision
+CPWS: Generating High-Quality Data from Confident Programmatic Weak Supervision
 
 **Framework**
 <img src="framework.png"/>
@@ -9,7 +9,14 @@ CPWS: Generate High-Quality Data from Confident Programmatic Weak Supervision
 
 Create virtual environment:
 
+```
+conda env create -f env.yml
+source activate cpws
+```
+
 **Data**
+
+Datasets are available here:
 
 Yelp: [link](https://drive.google.com/drive/folders/1rI6wKit4oq3nneqyw4uWrvKw7_b3ut4r?usp=drive_link)
 
