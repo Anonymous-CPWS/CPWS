@@ -7,11 +7,7 @@ CPWS: Generate High-Quality Data from Confident Programmatic Weak Supervision
 
 **Dependencies**
 
-python 3.6.13
-
-torch 1.10.1
-
-huggingface_hub 0.4.0
+Create virtual environment:
 
 **Data**
 
