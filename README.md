@@ -26,7 +26,9 @@ Tennis Rally: [link](https://drive.google.com/drive/folders/1z983x_QPvDwJqLaWxev
 
 Basketball: [link](https://drive.google.com/drive/folders/1Z7Odq8RukYWYkXFEXB9pWD7Td77miLb2?usp=drive_link)
 
-Our project is built based on Python, Pytorch and Wrench. We sincerely thank the efforts from all the researchers!
+Our project is built based on Python, Pytorch and Wrench. We sincerely thank the efforts of all the researchers!
+
+**Quick examples**
 
 **Reference**
 
