@@ -29,6 +29,7 @@ Basketball: [link](https://drive.google.com/drive/folders/1Z7Odq8RukYWYkXFEXB9pW
 Our project is built based on Python, Pytorch and Wrench. We sincerely thank the efforts of all the researchers!
 
 **Quick examples**
+Train a model with data-label pair in supervised manner.
 
 **Reference**
 
