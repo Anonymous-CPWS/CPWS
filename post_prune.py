@@ -10,5 +10,5 @@ ratio = r/P_[0][0]
 P = P_*ratio
 
 for i in range(cpws.get_n_LFs('yelp')):
-  cpws.prune_(prop=P[i], wd='datasets/yelp/datasets_1/train_ud_wo_ab0_cs_clean.json',
-        fp='datasets/yelp/datasets_1/train_ud_wo_ab0_cs_clean_pr.json', fd_name='yelp')
+  cpws.prune_(prop=P[i], wd='datasets/yelp/datasets_1/train_ud_wo_ab%d_cs_clean.json'%i,
+        fp='datasets/yelp/datasets_1/train_ud_wo_ab%d_cs_clean_pr.json'%i, fd_name='yelp')
