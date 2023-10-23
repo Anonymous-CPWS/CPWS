@@ -65,7 +65,6 @@ Aggregate weak datasets.
 ```
 from cpws import CPWS
 
-
 cpws = CPWS()
 
 cpws.aggregation(fp_in=['datasets/yelp/datasets_1/train_ud_wo_ab0_cs_clean_pr.json',
@@ -77,6 +76,16 @@ cpws.aggregation(fp_in=['datasets/yelp/datasets_1/train_ud_wo_ab0_cs_clean_pr.js
                     'datasets/yelp/datasets_1/train_ud_wo_ab6_cs_clean_pr.json',
                     'datasets/yelp/datasets_1/train_ud_wo_ab7_cs_clean_pr.json'],
                     fp_out='datasets/yelp/datasets_1/train_ud_wo_ab_cs_clean_pr_agg.json')
+```
+
+Count class rate.
+
+```
+from cpws import CPWS
+
+cpws = CPWS()
+
+print(cpws.count_class_rate(fp='datasets/yelp/datasets_1/train_rd.json', fd_name='yelp'))
 ```
 
 **Reference**
