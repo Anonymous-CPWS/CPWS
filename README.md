@@ -57,7 +57,10 @@ AR = 0.01
 rd, ud = cpws.data_split(ds_v, AR)
 cpws.save_json(rd, 'datasets/yelp/datasets_1/train_rd.json')
 cpws.save_json(ud, 'datasets/yelp/datasets_1/train_ud.json')
+```
 
+Weak dataset preparing
+```
 ds_v_ = cpws.load_json('datasets/yelp/datasets_1/train_ud.json')
 weak_datasets = cpws.weak_data_gen_full(ds_v_, fd_name='yelp')
 for i in range(len(weak_datasets)):
