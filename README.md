@@ -42,33 +42,22 @@ Train an end model on PWS-generated weak datasets.
 python weakly_supervised_learning.py
 ```
 
-Split dataset into $X^{gt}$ and $X^u$.
-
-```
-from cpws import CPWS
-
-cpws = CPWS()
-
-ds_v = cpws.load_json("datasets/yelp/train.json")
-len_train = len(ds_v)
-print(len_train)
-
-AR = 0.01
-rd, ud = cpws.data_split(ds_v, AR)
-cpws.save_json(rd, 'datasets/yelp/datasets_1/train_rd.json')
-cpws.save_json(ud, 'datasets/yelp/datasets_1/train_ud.json')
-```
-
 Weak dataset preparing
+
 ```
-from cpws import CPWS
+python data_preparing.py
+```
 
-cpws = CPWS()
+Pre_prune data.
 
-ds_v_ = cpws.load_json('datasets/yelp/datasets_1/train_ud.json')
-weak_datasets = cpws.weak_data_gen_full(ds_v_, fd_name='yelp')
-for i in range(len(weak_datasets)):
-    cpws.save_json(weak_datasets[i], 'datasets/yelp/datasets_1/train_ud_w_ab%d.json'%i)
+```
+python pre_prune.py
+```
+
+Post_prune data
+
+```
+python post_prune.py
 ```
 
 **Reference**
