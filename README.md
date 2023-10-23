@@ -60,6 +60,25 @@ Post_prune data
 python post_prune.py
 ```
 
+Aggregate weak datasets.
+
+```
+from cpws import CPWS
+
+
+cpws = CPWS()
+
+cpws.aggregation(fp_in=['datasets/yelp/datasets_1/train_ud_wo_ab0_cs_clean_pr.json',
+                    'datasets/yelp/datasets_1/train_ud_wo_ab1_cs_clean_pr.json',
+                    'datasets/yelp/datasets_1/train_ud_wo_ab2_cs_clean_pr.json',
+                    'datasets/yelp/datasets_1/train_ud_wo_ab3_cs_clean_pr.json',
+                    'datasets/yelp/datasets_1/train_ud_wo_ab4_cs_clean_pr.json',
+                    'datasets/yelp/datasets_1/train_ud_wo_ab5_cs_clean_pr.json',
+                    'datasets/yelp/datasets_1/train_ud_wo_ab6_cs_clean_pr.json',
+                    'datasets/yelp/datasets_1/train_ud_wo_ab7_cs_clean_pr.json'],
+                    fp_out='datasets/yelp/datasets_1/train_ud_wo_ab_cs_clean_pr_agg.json')
+```
+
 **Reference**
 
 - [WRENCH: A Comprehensive Benchmark for Weak Supervision](https://arxiv.org/abs/2109.11377) [[code]](https://github.com/JieyuZ2/wrench)
