@@ -5,6 +5,9 @@ CPWS: Generating High-Quality Data from Confident Programmatic Weak Supervision
 **Framework**
 <img src="framework.png"/>
 
+**DPS Flowchart**
+<img src="DPS.png"/>
+
 **Dependencies**
 
 Create virtual environment:
