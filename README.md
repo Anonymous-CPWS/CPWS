@@ -2,7 +2,10 @@
 
 CPWS: Generating High-Quality Data from Confident Programmatic Weak Supervision
 
-**Framework**
+**Illustration of PWS**
+<img src='PWS.png'/>
+
+**Framework of CPWS**
 <img src="framework.png"/>
 
 **DPS Flowchart**
